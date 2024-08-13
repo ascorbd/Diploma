@@ -26,8 +26,8 @@
 
 Запуск тестов:
 
-Установить все требования: pip install -r requirements.txt
+Установить все требования: pytest, selenium , pytest-selenium, termcolor allure-python-commons
 
 Загрузите свой Selenium WebDriver с https://chromedriver.chromium.org/downloads (выберите версию, совместимую с вашим браузером)
 
-Запустить тесты: pytest -v --driver Chrome --driver-path C:\Users\mansion11\PycharmProjects\Diploma\chromedriver.exe test_rostelecom.py
+Запустить тесты: pytest -v --driver Chrome --driver-path _Установите свой путь до веб-драйвера_\Diploma\chromedriver.exe test_rostelecom.py
